@@ -1,0 +1,129 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+
+.hero, .footer {
+    background-color: #1F2937;
+
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 100px 50px 100px;
+    gap: 50px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.awesome img {
+    width: 400px;
+    height: 200px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    /* flex-wrap: nowrap; */
+    flex-direction: column;
+    padding: 20px;
+    text-align: justify;
+    word-spacing:-4px;
+}
+
+.sub {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+   /* font-size: 50; doesn't work */
+}
+
+.card img {
+    height: 200px;
+    width: 133px;
+    border-radius: 10px;
+    align-items: flex-start;
+
+
+}
+
+.card {
+    width: 133px;
+    display: flex;
+    flex-direction: column;
+    /* font-size: 50; doesnt work */
+    
+
+}
+ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+ 
+
+.links, .text {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.call {
+    background-color: #3882F6;
+}
+
+a, a:hover, a:active, a:visited { 
+    color: white;
+    text-decoration: none; 
+}
+
+.awesome {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.subtext {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    margin-bottom: 15px;
+}
+
+.infoheader {
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937;
+    margin-bottom: 25px;
+    
+}
