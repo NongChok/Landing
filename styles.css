@@ -30,18 +30,16 @@ body {
 .info {
     display: flex;
     align-items: center;
-    /* flex-wrap: nowrap; */
     flex-direction: column;
-    padding: 20px;
+    padding: 20px 200px 50px 200px;
     text-align: justify;
-    word-spacing:-4px;
-}
+   
+} 
 
 .sub {
     display: flex;
     justify-content: center;
     gap: 25px;
-   /* font-size: 50; doesn't work */
 }
 
 .card img {
@@ -127,3 +125,61 @@ a, a:hover, a:active, a:visited {
     margin-bottom: 25px;
     
 }
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 200px;
+}
+
+.inspire {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.thor {
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.call {
+    margin: 50px 100px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 30px 50px;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.sign {
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+    height: 100px;
+    display: block;
+  }
+
+  .foot {
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+  }
