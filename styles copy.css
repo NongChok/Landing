@@ -6,10 +6,8 @@ body {
     flex-direction: column;
 }
   
-
 .hero, .footer {
     background-color: #1F2937;
-
 }
 
 .info, .quote, .call {
@@ -38,8 +36,7 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 20px 200px 50px 200px;
-    text-align: justify;
-   
+    text-align: justify;  
 } 
 
 .sub {
@@ -53,8 +50,6 @@ body {
     width: 133px;
     border-radius: 10px;
     align-items: flex-start;
-
-
 }
 
 .card {
@@ -115,7 +110,6 @@ a, a:hover, a:active, a:visited {
     display: flex;
     flex-direction: column;
 }
-
 
 .infoheader {
     font-size: 36px;
